@@ -1,6 +1,6 @@
 {
   "name": "nodejs-tweet",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Nodejs related Twitter Application that retweets and some more stuff.",
   "main": "bot.js",
   "dependencies": {
@@ -25,5 +25,13 @@
     "Twitter"
   ],
   "author": "Aman Mittal",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/amandeepmittal/nodejs-tweet/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandeepmittal/nodejs-tweet.git"
+  },
+  "homepage": "https://github.com/amandeepmittal/nodejs-tweet#readme"
 }
