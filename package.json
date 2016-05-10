@@ -1,6 +1,6 @@
 {
   "name": "nodejs-tweet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs related Twitter Application that retweets and some more stuff.",
   "main": "bot.js",
   "dependencies": {
