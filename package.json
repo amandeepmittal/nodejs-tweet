@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-tweet",
+  "version": "0.1.0",
+  "description": "Nodejs related Twitter Application that retweets and some more stuff.",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "~6.1.0",
+    "npm": "~.3.8.6"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "bot",
+    "nodejs",
+    "bot",
+    "retweet",
+    "Twitter"
+  ],
+  "author": "Aman Mittal",
+  "license": "MIT"
+}
