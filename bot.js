@@ -136,4 +136,29 @@ function ranDom (arr) {
   return arr[index];
 };
 
+// RETWEET @nodeweeklyfeed =========================================
+Twitter.get('search/tweets', { q: 'Node.js News', track: '@nodeweeklyfeed', count: 100, result_type: 'recent'}, function(err, data, response){
+  // if there no errors
+    if (!err) {
+      // grab ID of tweet to retweet
+        var tweetId = data.statuses[0].id_str;
+        // Tell TWITTER to retweet nodejsweekly
+        Twitter.post('statuses/retweet/:id', {
+            id: tweetId
+        }, function(err, response) {
+            if (response) {
+                console.log('Retweet NodeWeekly. SUCCESS!!!');
+            }
+            // if there was an error while tweeting
+            if (err) {
+                console.log('Something went wrong while RETWEETING NodeWeekly... Duplication maybe...ERROR!');
+            }
+        });
+    }
+    // if unable to Search a tweet
+    else {
+      console.log('Something went wrong while SEARCHING NodeWeekly...ERROR!');
+    }
+});
+
 // EOP =============================
