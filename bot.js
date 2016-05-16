@@ -89,8 +89,8 @@ var retweet = function() {
 
 // grab & retweet as soon as program is running...
 retweet();
-// retweet in every 10 minutes
-setInterval(retweet, 300000);
+// retweet in every 4 minutes
+setInterval(retweet, 240000);
 
 // FAVORITE BOT====================
 
@@ -136,8 +136,8 @@ function ranDom (arr) {
   return arr[index];
 };
 
-// RETWEET @nodeweeklyfeed =========================================
-Twitter.get('search/tweets', { q: 'Node.js News', track: '@nodeweeklyfeed', count: 100, result_type: 'recent'}, function(err, data, response){
+// RETWEET @nodeweeklyfeed & 'Node.js Daily' =========================================
+Twitter.get('search/tweets', { q: 'Node.js News', track: '@nodeweeklyfeed, Node.js Daily', count: 100, result_type: 'recent'}, function(err, data, response){
   // if there no errors
     if (!err) {
       // grab ID of tweet to retweet
