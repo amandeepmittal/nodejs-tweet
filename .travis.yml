@@ -12,8 +12,8 @@ before_install:
 before_script:
   - npm prune
 script:
-  - npm run start
 after_success:
+    - npm run start
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
