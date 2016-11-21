@@ -1,5 +1,7 @@
-# nodejs-tweet
-Node.js Twitter Application that retweets, favorites, and replies to stuff related to Node.js, AngularJS, MongoDB, MEAN Stack.
+# [nodejs-tweet](https://twitter.com/nodejstweets)
+Twitter bot that retweets, favorites, and replies related to Node.js, AngularJS, MongoDB, MEAN Stack, and Ionic Framework.
+
+
 
 ### TASKS this bot can do:
   - Retweet (every 10 minutes)
