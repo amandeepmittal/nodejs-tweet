@@ -1,6 +1,6 @@
 {
   "name": "nodejs-tweet",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Nodejs related Twitter Application that retweets and some more stuff.",
   "main": "bot.js",
   "dependencies": {
@@ -9,7 +9,6 @@
   "devDependencies": {},
   "scripts": {
     "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "~6.1.0",
