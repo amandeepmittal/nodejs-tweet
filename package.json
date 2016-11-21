@@ -1,7 +1,7 @@
 {
   "name": "nodejs-tweet",
   "version": "1.0.5",
-  "description": "Nodejs related Twitter Application that retweets and some more stuff.",
+  "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MeanStack #Ionic",
   "main": "bot.js",
   "dependencies": {
     "twit": "^2.1.1"
