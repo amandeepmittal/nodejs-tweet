@@ -8,7 +8,7 @@ Twitter bot that retweets, favorites, and replies related to Node.js, AngularJS,
 
 ## What can this bot do?
 
-#### Retweet & Like a Tweet*
+#### Retweet & Like a Tweet
 
 ![](src/images/Screen Shot 2016-11-21 at 12.20.00 PM.png)
 
@@ -18,7 +18,7 @@ Twitter bot that retweets, favorites, and replies related to Node.js, AngularJS,
 ![](src/images/Screen Shot 2016-11-21 at 12.31.37 PM.png)
 
 ### Pre-requisites
-This bot uses the `twit` NPM package to manipulate tweets and streams and coomuincate with Twitter API. Please refer [documentation](https://github.com/ttezel/twit) to make substantial changes.
+This bot uses the `twit` NPM package to manipulate tweets and streams and communicate with Twitter API. Please refer [documentation](https://github.com/ttezel/twit) to make substantial changes.
 
 ### Contributing
 You can help out by:
