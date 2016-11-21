@@ -6,12 +6,14 @@ Twitter bot that retweets, favorites, and replies related to Node.js, AngularJS,
 
 ![Screenshot](src/images/Screen Shot 2016-11-21 at 11.57.50 AM.png)
 
-### What can this bot do?
+## What can this bot do?
 
-**Retweet & Like a Tweet**
+#### Retweet & Like a Tweet*
+
 ![](src/images/Screen Shot 2016-11-21 at 12.20.00 PM.png)
 
-**Reply to the followers (when followed)**
+#### Reply to a follower (when followed)
+
 ![](src/images/Screen Shot 2016-11-21 at 12.22.58 PM.png)
 ![](src/images/Screen Shot 2016-11-21 at 12.31.37 PM.png)
 
