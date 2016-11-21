@@ -13,7 +13,6 @@ before_script:
   - npm prune
 script:
 after_success:
-    - npm run start
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
