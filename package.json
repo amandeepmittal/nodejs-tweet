@@ -1,6 +1,6 @@
 {
   "name": "nodejs-tweet",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MeanStack #Ionic",
   "main": "bot.js",
   "dependencies": {
@@ -11,8 +11,8 @@
     "start": "node bot.js"
   },
   "engines": {
-    "node": "~6.1.0",
-    "npm": "~.3.8.6"
+    "node": "6.1.0",
+    "npm": "3.8.6"
   },
   "keywords": [
     "nodejs",
