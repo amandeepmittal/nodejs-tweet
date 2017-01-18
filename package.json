@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bot.js",
+    "start": "node bot.js"
   },
   "engines": {
     "node": "~6.1.0",
