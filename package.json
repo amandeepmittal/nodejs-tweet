@@ -1,6 +1,6 @@
 {
   "name": "nodejs-tweet",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MeanStack #Ionic",
   "main": "bot.js",
   "dependencies": {
