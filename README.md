@@ -23,7 +23,8 @@ This bot uses the `twit` NPM package to manipulate tweets and streams and commun
 ### Contributing
 You can help out by:
 
-Pointing out bugs/errors.
+* Pointing out bugs/errors
+* Adding new functionaly or feature
 
 For above option(s), please create an issue so it can be addressed. New to GitHub issues? They have a pretty handy guide you can use to familiarize yourself with them.
 
@@ -31,10 +32,12 @@ For above option(s), please create an issue so it can be addressed. New to GitHu
 
 Simply Do:
 
-- Fork the repository
-- Make your suggested change
-- Make sure the code style looks similar to the existing code
-- Create a pull request
+* Fork the repository
+* Make your suggested change
+* Make sure the code style looks similar to the existing code
+* Create a pull request
+
+---
 
 ### License
-MIT
+Copyright (c) 2017, Aman Mittal. All rights reserved.
