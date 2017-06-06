@@ -1,5 +1,4 @@
 'use strict';
-
 /*
 * TWITTER APP CONFIGURATION
 * consumer_key
@@ -9,6 +8,7 @@
 * retweet frequency rate
 * favorite frequency rate
 */
+
 module.exports = {
   twitter: {
     consumer_key       : 'eqS99PFooAF7KulehNv7NLP36',

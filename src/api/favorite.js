@@ -1,5 +1,4 @@
 'use strict';
-
 const config = require('../config');
 const random = require('./random');
 const twit = require('twit');

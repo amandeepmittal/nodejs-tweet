@@ -1,11 +1,4 @@
 'use strict';
-/*
-  TASKS this bot can do:
-  - Retweet (every 10 minutes)
-  - THANKYOU Reply to the followers (when followed)
-  - Favorite a tweet (every 30 minutes)
-*/
-
 // Dependencies =========================
 const twit = require('twit');
 const config = require('./config');

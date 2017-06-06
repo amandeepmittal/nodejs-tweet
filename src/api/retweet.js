@@ -1,5 +1,4 @@
 'use strict';
-
 const config = require('../config.js');
 const twit = require('twit');
 const T = new twit(config.twitter);
