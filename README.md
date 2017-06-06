@@ -6,7 +6,7 @@ Twitter bot that retweets, favorites, and replies tweets related to Node.js, Ang
 
 ![Screenshot](http://i.imgur.com/mpZWVJ9.png)
 
-## What can this bot do?
+## What this bot can do?
 
 #### Retweet & Like a Tweet
 
