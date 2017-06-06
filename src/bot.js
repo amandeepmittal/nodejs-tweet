@@ -26,43 +26,6 @@ setInterval(favorite, config.favoriteRate);
 const stream = T.stream('user') ;
 stream.on('follow', followed);
 
-// // Use Streams API for interacting with a USER ==========
-//
-// // set up a user stream
-// var stream = Twitter.stream('user');
-//
-// // FOLLOW BOT ===========================
-//
-// // when someone follows
-// stream.on('follow', followed);
-//
-// // ...trigger the callback
-// function followed(event) {
-//     console.log('Follow Event is running');
-//     //get their twitter handler (screen name)
-//     var
-//       name = event.source.name,
-//       screenName = event.source.screen_name;
-//     // function that replies back to the user who followed
-//     tweetNow('@' + screenName + ' Thank you. I hope you get some useful information here.');
-// }
-//
-// // function definition to tweet back to user who followed
-// function tweetNow(tweetTxt) {
-//     var tweet = {
-//         status: tweetTxt
-//     }
-//     Twitter.post('statuses/update', tweet, function(err, data, response) {
-//       if(err){
-//         console.log("Error in Follow TWEET");
-//       }
-//       else{
-//         console.log("Follow TWEET Working Successfully");
-//       }
-//     });
-// }
-//
-
 // // RETWEET @nodeweeklyfeed & 'Node.js Daily' =========================================
 // Twitter.get('search/tweets', { q: 'Node.js News', track: '@nodeweeklyfeed, Node.js Daily', count: 100, result_type: 'recent'}, function(err, data, response){
 //   // if there no errors
