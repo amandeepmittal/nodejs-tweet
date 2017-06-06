@@ -4,11 +4,11 @@
   "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MeanStack #Ionic",
   "main": "bot.js",
   "dependencies": {
-    "twit": "^2.1.1"
+    "twit": "2.2.5"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "6.1.0",
