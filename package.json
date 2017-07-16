@@ -11,8 +11,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "6.10.3",
-    "npm": "3.8.6"
+    "node": "6.11.1"
   },
   "keywords": [
     "nodejs",
