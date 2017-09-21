@@ -7,14 +7,14 @@ function followed(event) {
   console.log('Follow event is running');
 
   let name = event.source.name;
-  screenName = event.souce.screen_name;
+  screenName = event.source.screen_name;
 
   tweetNow('Thank you @' + screenName + ' . I hope you get useful information here.');
 }
 
 function tweetNow(tweetText) {
   let tweet = {
-    status: tweetTxt
+    status: tweetText
   };
 
   T.post('statuses/update', tweet, (err, data, response) => {
