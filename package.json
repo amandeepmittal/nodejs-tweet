@@ -1,7 +1,8 @@
 {
   "name": "nodejs-tweet",
-  "version": "2.0.0",
-  "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MEANStack #ReactJS, #ReactNative",
+  "version": "2.1.0",
+  "description":
+    "A-Z Tweets from #nodejs #mongodb #angularjs #MEANStack #ReactJS, #ReactNative",
   "main": "index.js",
   "dependencies": {
     "level": "2.1.1",
@@ -14,15 +15,7 @@
   "engines": {
     "node": "8.9.0"
   },
-  "keywords": [
-    "nodejs",
-    "npm",
-    "bot",
-    "nodejs",
-    "bot",
-    "retweet",
-    "Twitter"
-  ],
+  "keywords": ["nodejs", "npm", "bot", "nodejs", "bot", "retweet", "Twitter"],
   "author": "Aman Mittal <amandeepmittal@live.com>",
   "bugs": {
     "url": "https://github.com/amandeepmittal/nodejs-tweet/issues"
