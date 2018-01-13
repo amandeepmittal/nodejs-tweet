@@ -4,6 +4,7 @@
   "description": "A-Z Tweets from #nodejs #mongodb #angularjs #MEANStack #ReactJS, #ReactNative",
   "main": "index.js",
   "dependencies": {
+    "level": "2.1.1",
     "twit": "2.2.9"
   },
   "devDependencies": {},

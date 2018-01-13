@@ -18,8 +18,9 @@ module.exports = {
   },
   twitterConfig: {
     queryString:
-      "#Nodejs, #Angular, #Reactjs, #ionicframework, #ReactNative, #es6",
-    blackList: ""
+      "#Nodejs, #Angular, #Reactjs, #ionicframework, #ReactNative, #es6"
+    // blackList:
+    //   "reactdom,_adeeb,subjecttoreview,stacktrender,adaltarecruit,heroes_bot,_30days30sites,droidscott,scottbottest"
   },
   retweetRate: 1500000,
   favoriteRate: 1500000
