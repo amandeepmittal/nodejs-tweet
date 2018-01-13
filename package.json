@@ -15,7 +15,7 @@
     "node": "8.9.0"
   },
   "keywords": ["nodejs", "npm", "bot", "nodejs", "bot", "retweet", "Twitter"],
-  "author": "Aman Mittal",
+  "author": "Aman Mittal <amandeepmittal@live.com>",
   "bugs": {
     "url": "https://github.com/amandeepmittal/nodejs-tweet/issues"
   },
